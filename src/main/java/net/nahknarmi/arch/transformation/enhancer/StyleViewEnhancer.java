@@ -21,6 +21,6 @@ public class StyleViewEnhancer implements WorkspaceEnhancer {
         styles.addElementStyle("Folder").background("#73f275").color("#ffffff").shape(Shape.Folder);
         styles.addElementStyle("App").background("#73f275").color("#ffffff").shape(Shape.MobileDevicePortrait);
         styles.addElementStyle("Website").background("#73f275").color("#ffffff").shape(Shape.WebBrowser);
-        styles.addElementStyle("Extern").background("#ff8080").color("#ffffff").shape(Shape.WebBrowser);
+        styles.addElementStyle("Extern").background("#ff8080").color("#ffffff");
     }
 }
