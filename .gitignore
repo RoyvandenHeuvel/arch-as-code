@@ -11,3 +11,10 @@ build
 credentials.json
 
 .arch-as-code/
+
+build
+
+bin
+
+.classpath
+.settings
