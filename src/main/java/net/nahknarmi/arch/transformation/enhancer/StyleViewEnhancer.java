@@ -22,5 +22,6 @@ public class StyleViewEnhancer implements WorkspaceEnhancer {
         styles.addElementStyle("App").shape(Shape.MobileDevicePortrait);
         styles.addElementStyle("Website").shape(Shape.WebBrowser);
         styles.addElementStyle("Extern").background("#ed961c").color("#ffffff");
+        styles.addElementStyle("Pijnpunt").background("#eb4034").color("#ffffff");
     }
 }
