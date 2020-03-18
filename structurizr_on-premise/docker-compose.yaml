@@ -4,7 +4,7 @@ services:
   structurizr:
     image: registry.voogddev.com/voogd/structurizr:1.0.0
     environment:
-      - VIRTUAL_HOST=http://structurizr.voogdlocal.com
+      - VIRTUAL_HOST=http://structurizr.voogddev.com
       - SERVICE_PORTS=8080
     deploy:
       mode: replicated
@@ -19,7 +19,7 @@ services:
       - frontend
     # volumes:
     #   - /data/structurizr:/usr/local/structurizr
-    
+
 networks:
   frontend:
     external: true
